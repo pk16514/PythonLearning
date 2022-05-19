@@ -1,5 +1,5 @@
-start = int(input('Enter the start value of the interval:-'))
-end = int(input('Enter the start value of the interval:-'))
+start = int(input('Enter the start value of the interval: '))
+end = int(input('Enter the start value of the interval: '))
 
 for i in range(start, end):
     isDivisible = False
