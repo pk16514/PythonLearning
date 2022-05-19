@@ -1,0 +1,4 @@
+*.pyc
+this_page_cache.txt
+*.json
+Jupyter_Notebook/.ipynb_checkpoints/Demo-checkpoint.ipynb

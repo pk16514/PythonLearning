@@ -1,0 +1,47 @@
+import random
+
+names = ['Applied AI_All_prime_numbers_within_an_interval', 'Applied AI_calculator', 'Applied AI_Factorial',
+         'Applied AI_Fibonacci_Series_upto_nthTerm', 'Applied AI_H.C.F_of_2numbers',
+         'Applied AI_Largest_no._out_of_3numbers', 'Applied AI_Palindrome_check_in_String',
+         'Applied AI_PrimeNumberCheck_using_while', 'Applied AI_Product_of_all_numbers_in_a_list',
+         'Applied AI_python_keywords', 'Applied AI_Sort_SentenceWords _in_AlphabeticalOrder',
+         'Applied AI_Transpose_of_a_Matrix', 'Applied AI_BinarySearch', 'Built_In_Functions', 'Cousera_Absolute&RelativePath',
+         'Cousera_Acronym', 'Cousera_assert_test_unittest_module', 'Cousera_Caching',
+         'Cousera_Category_Phrase_dictionary', 'Cousera_ConvertSecondsIntoHMS', 'Cousera_DataExtractionUsingJSONFromNestedDS',
+         'Cousera_DebuggingCallstorequestsdotget', 'Cousera_DeepandShallowCopy', 'Cousera_DictionaryIndexing',
+         'Cousera_DictionarySorting', 'Cousera_encode_decode', 'Cousera_First10itemsofListUsingFun',
+         'Cousera_flickr_API', 'Cousera_FunctionCallingOrder', 'Cousera_georeq',
+         'Cousera_Hangman_Blanked_Function', 'Cousera_HurdOfTurtles', 'Cousera_ImageProcessingProblems',
+         'Cousera_InsertElementIntoListUsingSlicing', 'Cousera_iTunes_API', 'Cousera_iTunes_data',
+         'Cousera_JSON_Modules', 'Cousera_List_Comprehension', 'Cousera_MergeAndFilterTwoListsUsingZip',
+         'Cousera_MoreTurtlePrograms', 'Cousera_MostCommonWordInAFile', 'Cousera_MutableObjectsAndSideEffects',
+         'Cousera_NestedDataIterationProblem', 'Cousera_NestedDataStructure', 'Cousera_ObjectReference_aliasing',
+         'Cousera_OMDB_and_TasteDive_Mashup', 'Cousera_Parsing&Extracting', 'Cousera_RandomlyWalkingTurtlesProgram',
+         'Cousera_ReferenceDiagramProblem', 'Cousera_Regular_Expressions', 'Cousera_requests_with_caching',
+         'Cousera_res', 'Cousera_REST_API', 'Cousera_RetrieveImageFileFromWebServer',
+         'Cousera_SentimentClassifierProject', 'Cousera_SingleTurtlePrograms', 'Cousera_Smallest_&_Largest_No._in_a_list',
+         'Cousera_SortDictionaryByValuesAndKeys', 'Cousera_SortingDataUsinglambda', 'Cousera_SP500',
+         'Cousera_StopWhileLoopWhenReaches7', 'Cousera_TuplesComparison', 'Cousera_Week2_ExtractingDataUsingRegEx_Assignment',
+         'Cousera_Week3_Assignment7.2', 'Cousera_Week4_Assignment8.4', 'Cousera_Week4_Assignment8.5',
+         'Cousera_Week5_Assignment9.4', 'Cousera_Week6_Assignment10.2', 'Cousera_Week7_Assignment5.2',
+         'Cousera_Wheel_of_Python', 'Cousera_Working_with_JSON_Data', 'Cousera_WritingDataToCSVfiles',
+         'Dictionary', 'Global_Nonlocal', 'Lists', 'ObjectOrientedProgramming', 'Sets', 'Strings',
+         'programiz_ArmstrongNumber', 'programiz_ArmstrongNumberInAnInterval', 'programiz_ClassNameOfAnInstance',
+         'programiz_ConvertStringToDatetime', 'programiz_ConvertTwoListsIntoDictionary', 'programiz_DecimalToBinaryOctalHexadecimal',
+         'programiz_DecToBinUsingRecursion', 'programiz_Diff.BetweenTypeAndInstance', 'programiz_DispalyPowerOf2',
+         'programiz_DisplayCalender', 'programiz_DisplayNoDivisiblebyAnotherNo', 'programiz_Factorial',
+         'programiz_FibonacciSequence', 'programiz_FlattenListFromNestedList', 'programiz_FullPyramidPatterns',
+         'programiz_HalfPyramidPattern', 'programiz_InvertedHalfPyramidPattern', 'programiz_IterateTwoListsParallely',
+         'programiz_LCM', 'programiz_LeapYearCheck', 'programiz_MatrixAddition',
+         'programiz_MatrixMultiplication', 'programiz_MergeTwoFiles', 'programiz_MultiplicationTable',
+         'programiz_PrintColoredTextInTerminal', 'programiz_PunctuationRemovalfromString', 'programiz_QuadraticEquationSolution',
+         'programiz_randomNumberGeneration', 'programiz_RandomSelectionOfElementFromList', 'programiz_ReturnMultipleValuesFromFunc',
+         'programiz_ShuffleDeckOfCards', 'programiz_SortDictionaryBasedonValues', 'programiz_SplitListInEvenlySizedChunk',
+         'programiz_sqrt_of_complexno', 'programiz_StringAnagramCheck', 'programiz_StringPermuation',
+         'programiz_Super_with_Multiple_Inheritance', 'programiz_swap_2numbers', 'programiz_TrimWhitespaceFromString',
+         'programiz_VowelCountInString']
+
+xyz = ['Jupyter_Notebook', 'openCV', 'Python_PIL']
+
+print([random.choice(names) for i in range(4)])
+print(random.choice(xyz))
