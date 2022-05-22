@@ -20,6 +20,8 @@ x = ["dogs", "cats", "birds", "reptiles"]
 y = x
 x += ['fish', 'horses']
 y = y + ['sheep']
+print(x)
+print(y)
 
 "Check image weeka3_1, weeka3_2, weeka3_3 & weeka3_4 for option"
 
