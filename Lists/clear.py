@@ -9,17 +9,17 @@
 # Example-1
 
 
-list = [{1, 2}, ('a'), ['1.1', '2.2']]
-list.clear()
+lst = [{1, 2}, ('a'), ['1.1', '2.2']]
+lst.clear()
 
-print('List:', list)
+print('List:', lst)
 print('\r')
 
 # Example-2(Emptying the list using del method)
 
 
-list = [{1, 2}, ('a'), ['1.1', '2.2']]
-# del list
-del list[:]
+lst = [{1, 2}, ('a'), ['1.1', '2.2']]
+del lst
+# del list[:]
 
-print('List:', list)
+print('List:', lst)
