@@ -36,7 +36,7 @@ else:
 
 quote2 = 'Do small things with great love'
 
-print(quote2.find('small things', 10))
+print(quote2.find('small things', 4))
 print(quote2.find('small things', 2))
 print(quote2.find('o small ', 10, -1))
 print(quote2.find('things ', 6, 20))

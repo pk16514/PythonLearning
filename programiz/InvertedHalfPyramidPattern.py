@@ -67,4 +67,4 @@ for i in range(n, 0, -1):
         # print(chr(64 + (n-i+1)), end=" ")
     print('\r')
 
-print('\r')
+

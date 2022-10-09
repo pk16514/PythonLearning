@@ -40,3 +40,4 @@ ide = MyEditor()
 
 lap1 = Laptop()
 lap1.code(ide)
+

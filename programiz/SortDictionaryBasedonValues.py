@@ -1,6 +1,10 @@
-dt = {5: 4, 1: 6, 6: 3}
+def outer(n):
+    
+    def inner(temp):
+        return lambda res : res + temp
 
-dt = {key: value for key, value in sorted(dt.items(),
-      key=lambda item: item[1], reverse=True)}
+    res_inner = inner(15)
+    return lambda x : x * res_inner(n)
 
-print(dt)
+res_outer  = outer(5)
+print(res_outer(10))
