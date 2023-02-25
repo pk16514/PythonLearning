@@ -22,7 +22,7 @@
 
 
 song1 = 'cold, cold heart'
-print(song1.replace('cold', 'hurt'))
+print(song1.replace(' ', 'hurt', 1))
 
 song2 = 'Let it be, let it be, let it be, let it be'
 print(song2.replace('let', "don't let", 2))
